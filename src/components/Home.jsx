@@ -1,3 +1,5 @@
+import profileImage from "../assets/image/IMG-20260718-WA0160.jpg";
+
 function Home() {
   return (
     <section id="home" className="home">
@@ -34,7 +36,7 @@ function Home() {
 
       <div className="home-image">
         <div className="image-circle">
-            <img src="src/image/IMG-20260718-WA0160.jpg" alt="Sania Tagheja" />
+            <img src={profileImage} alt="Sania Tagheja" />
         </div>
       </div>
 
